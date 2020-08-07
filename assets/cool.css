@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,400;1,600&display=swap');
+
+
+p {
+  font-family: 'Playfair Display', serif;
+  
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+
+.logo {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+img{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    height: 450px;
+    float: left;
+    text-align: center;
+    
+    }
+
+.carousel-caption {
+background-color: black;
+fill-opacity: 20%;
+padding-right: 50px;
+padding-left: 20px;
+padding-top: 5px;
+bottom: 10px;
+margin-left: 0px;
+height: 20px;
+    }
+
+p.carousel-caption {
+height: 10px;
+padding-bottom: 30px;
+}
+
+
+header {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/m2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar-item {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 200px;
+    
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: whitesmoke;
+    border: 2px solid black;
+}
+
+aside section {
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+aside h3 {
+    
+    text-align: center;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section {
+    margin-bottom: 47px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: black;
+    opacity: .6;
+   border: 5px solid black;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    opacity: 1.0;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#mini-footer {
+    background-color: whitesmoke;
+    padding-top: 1px;
+}
+
+
