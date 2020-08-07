@@ -40,22 +40,6 @@ img{
     
     }
 
-.carousel-caption {
-background-color: black;
-fill-opacity: 20%;
-padding-right: 50px;
-padding-left: 20px;
-padding-top: 5px;
-bottom: 10px;
-margin-left: 0px;
-height: 20px;
-    }
-
-p.carousel-caption {
-height: 10px;
-padding-bottom: 30px;
-}
-
 
 header {
     height: 600px;
@@ -112,9 +96,9 @@ footer {
     padding-top: 6px;
 }
 
-.column {
-    margin-left: 13%;
-}
+/* .projects {
+    align-items: center;
+} */
 
 .social-media{
     margin-top: 40px;
