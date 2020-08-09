@@ -15,31 +15,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
 </head>
+
 <body>
   <header>
     <section class="hero is-medium">
-      <nav class="navbar">
+      <div class="navbar-brand">
+      <figure>
+        <img src="assets/images/xa_logo.png" alt="logo" class="logo">
+      </figure>
+      
+      <div class="navbar-menu" id="navbarSupportedContent"></div>
         
-          <div class="navbar-brand">
-          <figure>
-            <img src="assets/images/xa_logo.png" alt="logo" class="logo">
-          </figure>
-          <span class="navbar"></span>
+        <a class="navbar-link navbar-item" href="#about-me">Xyra</a>
+
+        <a class="navbar-link navbar-item" href="#projects">Projects</a>
+
+        <a class="navbar-link navbar-item" href="#contact">Contact</a>
+
+        <a class="navbar-link navbar-item" href=".pdf" type="application/pdf"
+          target="_blank">Resume</a>
+          
         </div>
-        <div class="navbar-menu" id="navbarSupportedContent"></div>
-        <div class="navbar-end"></div>
-          <a class="navbar-link navbar-item" href="index.html">Home</a>
-
-          <a class="navbar-link navbar-item" href="portfolio.html">Projects</a>
-
-          <a class="navbar-link navbar-item" href="contact.html">Contact</a>
-
-          <a class="navbar-link navbar-item" href="./assets/Resume-Ethan.pdf" type="application/pdf" target="_blank">Resume</a>
-        </div>
-      </nav>
+      
     </section>
   </header>
 
@@ -47,60 +47,67 @@
     <div class="hero"></div>
 
 
-
-<div>
-        <!--First Row-->
-        <div class="row">
-            <div class="page-header about-me">
-              <h1>About Me</h1>
-            </div>
-            </div>
-
-   <!--line divider-->         
-<hr width="100%" noshade></hr>
-            
-<!--info under divider-->
-            
-                <img src="assets/images/grad.jpg" alt="grad-pic" class="grad-image">
-              <p>
-                  Welcome! 
-                  My name is Xyra Arroyo. 
-                  <br>
-                  Born in Aneheim, California & raised in Georgia. 
-                  I'm excited that I have the opportunity to be able to create my own portfolio and share it with the rest of the world. I am a first generation college graduate from Georgia State University. I obtained my Bachelors in 
-                  Psychology and hope to pursue my aspiration to become a Psychologist in the near future that specializes in a varity of areas. Along the way, I quickly noticed my 
-                  deep interest in web development through computer classes and java coding workshops that were offered in college. I enjoyed these classes so much
-                  that I aspired a career in web development as well. I therefore applied to the Georgia Tech Coding Bootcamp in hopes of being able to learn everything there is about coding and apply 
-                  myself in this area. 
-                  <br>
-               
-                </p>
-</div>
-
-<hr width="100%" noshade></hr>
-
 <main>
+  <div class="row">
+    <div class="page-header about-me" id="about-me">
+      <h1>About Me</h1>
+    </div>
+    </div>
 
-<div class ="info">
-  <section id="details">
-      <img src="" class="float-left"  alt="table with notebook that says SEO, a laptop, writing tools, and a coffee cup"/>
-      <h2> My Past </h2>
-      <p>
-      </p>
-  </section>
+  
+
+    <div class="ui grid stackable">
+
+
+        <div class="column bioText">
+            <h2>Welcome!</h2>
+            <br>
+             Hello, my name is Xyra Arroyo, 
+              <br>
+              I was born in Aneheim, California & raised in Georgia. 
+              I'm excited that I have the opportunity to be able to create my own portfolio and share it with the rest of the world. I am a first generation college graduate from Georgia State University. I obtained my Bachelors in 
+              Psychology and hope to pursue my aspiration to become a Psychologist in the near future that specializes in a varity of areas. Along the way, I quickly noticed my 
+              deep interest in web development through computer classes and java coding workshops that were offered in college. I enjoyed these classes so much
+              that I aspired a career in web development as well. I therefore applied to the Georgia Tech Coding Bootcamp in hopes of being able to learn everything there is about coding and apply 
+              myself in this area. 
+              <br>
+           
+            
+
+            <br><br>
+            
+
+        </div>
+
+
+    <br><br>
+    <div class="six wide column">
+        <img src="assets/images/grad.jpg" alt= "headshot" />
+
+    </div>
+</div>
+    <br><br>
+
+
+
+
+
+
+<div id ="info">
+
   <section id="current">
       <img src="" class="float-left" alt="person holding a phone and on a laptop that says reputation with graphs underneath" />
-      <h2> Day In The Life</h2>
+      <h1> Day In The Life</h1>
       <p>
       </p>
   </section>
   <section id="future">
       <img src="" class="float-left" alt="a group of people at a meeting regarding marketing"/>
-      <h2>Aspirations</h2>
+      <h1>Aspirations</h1>
       <p>
       </p>
   </section>
-  <div>
+</div>
 </main>
 
 <div class="hero"></div>
@@ -110,7 +117,7 @@
 <div>
         <!--First Row-->
         <div class="row">
-            <div class="page-header about-me">
+            <div class="page-header about-me" id="projects">
               <h1>Projects</h1>
             </div>
             </div>
@@ -118,27 +125,50 @@
    <!--line divider-->         
 <hr width="100%" noshade></hr>
 
-<div class ="projects">
-<div class="columns">
-  <div class="column">
-   <img src="assets/images/calendar.png">
+<section id="portfolio">
+  
+  <div class="ui stackable three column grid">
+      <div class="column">
+          <div class="ui segment">
+              <img src="assets/images/calendar.png"
+                  alt="calendar application screenshot" class="image">
+              <h5><a href style="color: rgb(5, 5, 5)"
+                      src="https://xarroyo1.github.io/Calendar-Application/">Calendar App</a></h5>
+              <div> Need to remember your tasks? This application will show you your day to day schedule in real time allowing you to know what events are to come 
+                and which events have passed.
+              </div>
+          </div>
+      </div>
+      <div class="column">
+        <div class="ui segment">
+            <img src="assets/images/savings-app.png"
+                alt="savings application screenshot" class="image">
+            <h5><a href style="color: rgb(5, 5, 5)"
+                    src="https://veigarmain.github.io/Savings-Project/">Dolla Dolla Bills Y'all</a></h5>
+            <div>Start to save some money with the use of simple savings application. This application allows you to input the amount of money
+              you would like to save. Then it asks to input what you would like to save for creating a motivational giphy picture of that input. It will then include 
+              a chart updating the amount of money towards that goal whenever you input how much you are putting towards that current amount.
+            </div>
+        </div>
+    </div>
+      
+      <div class="column">
+          <div class="ui segment">
+              <img src="assets/images/weath-app.png"
+                  alt="portfolio place holder three" class="image">
+              <h5><a href style="color: rgb(5, 5, 5)"
+                      src="https://courtneypaasch.github.io/the-office-test/index.html">Weather App</a></h5>
+              <div>This application allows the user to check the weather for any city across the globe
+                and shows the 5 day weather forecast for that city location in real time. There is also an icon 
+              that corrolates with the type of weather shown. </div>
+          </div>
+      </div>
   </div>
-  <div class="column">
-    <img src="assets/images/code-quiz.png">
-  </div>
-  <div class="column">
-    <img src="assets/images/weath-app.png">
-  </div>
-</div>
 
-<div class="columns">
- 
-  <div class="column">
-    <img src="assets/images/savings-app.png">
-  </div>
-</div>
 
-</div>
+  
+  <br><br>
+</section>
 
 <br>
 <br>
@@ -241,10 +271,7 @@
 </footer>
 
 <footer>
-  <p>
-    Made with &hearts;  by Xyra
-  </p>
-  <p>&copy; Copyright</p>
+  <p>Made with &hearts;  by Xyra</p>
 </footer>
 
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>

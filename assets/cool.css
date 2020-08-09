@@ -3,9 +3,19 @@
 
 p {
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  
+  font-size: px;
+  padding-top: 20px;
 }
+
+img{
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+    
+    
+    }
+
 
 h1 {
   font-family: 'Playfair Display', serif;
@@ -17,8 +27,9 @@ h1 {
 .logo {
     padding-left: 50px;
     padding-top: 50px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 
@@ -28,17 +39,6 @@ body {
    background-size: cover;
    
 }
-
-img{
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-top: 10px;
-    height: 450px;
-    float: left;
-    text-align: center;
-    
-    }
 
 
 header {
@@ -55,23 +55,40 @@ header {
     color: white;
     font-size: 30px;
     margin-top: 0%;
+    align-items: right;
     
 }
 
 main {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
-main section {
+#current{
     margin-bottom: 47px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: gray;
-    color: black;
-    opacity: .6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./images/Past2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
    
+}
+
+#future {
+    margin-bottom: 47px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./images/Past.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
 }
 
 main section h2 {
@@ -96,9 +113,7 @@ footer {
     padding-top: 6px;
 }
 
-/* .projects {
-    align-items: center;
-} */
+
 
 .social-media{
     margin-top: 40px;
@@ -107,5 +122,42 @@ footer {
  
  .social-media a:hover,
  .column a:hover{
- color: rgb(125, 125, 125) !important;
+ color: rgb(125, 125, 125);
  }
+
+ #portfolio {
+    display: table-row;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+h5 {
+    
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 50;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.image {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+  }
+  
+.column {
+      margin-top: 40px;
+      margin-bottom: 10px;
+  }
+
+.bioText {
+    font-size: 29px;
+    line-height: 50px;
+}
