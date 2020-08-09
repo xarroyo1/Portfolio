@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,400;1,600&display=swap');
 
 header {
-    height: 600px;
+    height: 550px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("images/m2.jpg");
@@ -48,18 +48,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
    background-size: cover;
+   scroll-behavior: smooth;
    
 }
 
 
-
 .navbar-item {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 0%;
     align-items: right;
     
 }
+
 
 
 #current{
@@ -127,8 +128,10 @@ footer {
 .logo {
     padding-left: 50px;
     padding-top: 50px;
-    width: 320px;
-    height: 300px;
+   height: 200px;
+   width: 210px;
+
+    
     
 }
 
@@ -172,8 +175,8 @@ footer {
   }
 
 .bioText {
-    font-size: 29px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 
