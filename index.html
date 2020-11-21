@@ -1,4 +1,4 @@
-<!-- Homework 2 -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -9,52 +9,65 @@
   <title> Xyra </title>
   
   <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="assets/bulma.css">
-  <link rel="stylesheet" type="text/css" href="assets/cool.css">
-  <link rel="shortcut icon" href="assets/images/bearclaw.ico">
+  <link rel="stylesheet" type="text/css" href="./assets/bulma.css">
+  <link rel="stylesheet" type="text/css" href="cool.css">
+  <link rel="shortcut icon" href="./images/bearclaw.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+  
 
 </head>
 
-<body>
+
+
   <header>
-    <section class="hero is-medium">
-      <div class="navbar-brand">
-      <figure>
-        <img src="assets/images/xa_logo.png" alt="logo" class="logo">
-      </figure>
-      
-      <div class="navbar-menu" id="navbarSupportedContent"></div>
-        
-        <a class="navbar-link navbar-item" href="#about-me">Xyra</a>
+    <section>
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <img src="images/xa_logo.png" class="logo" alt="xa_logo">
+          <h2>Xyra Arroyo</h2>
+        </a>
+        <div class="nav-container navbar-item">
+        <a class="link" href="#about-me"> Bio</a>
 
-        <a class="navbar-link navbar-item" href="#projects">Projects</a>
+        <a class="link" href="#projects">Projects</a>
 
-        <a class="navbar-link navbar-item" href="#contact">Contact</a>
+        <a class="link" href="#contact">Contact</a>
 
-        <a class="navbar-link navbar-item" href="assets/resume2020.pdf" type="application/pdf"
+        <a class="link" href="assets/resume2020.pdf" type="application/pdf"
           target="_blank">Resume</a>
-          
         </div>
+        </a>
+      </nav>
       
     </section>
+    
+    <h1 class="type"></h1>
+
   </header>
 
-
+ 
+  
     <div class="hero"></div>
-
+<body>
 
 <main>
   <div class="row">
     <div class="page-header about-me" id="about-me">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
     </div>
     </div>
 
   
 
     <div class="ui grid stackable">
+      
+      <div class="six wide column">
+        <img src="images/me.JPEG" alt= "headshot" />
 
+    </div>
 
         <div class="column bioText">
             <h2>Welcome!</h2>
@@ -78,10 +91,7 @@
 
 
     <br><br>
-    <div class="six wide column">
-        <img src="assets/images/grad.jpg" alt= "headshot" />
-
-    </div>
+   
 </div>
     <br><br>
 
@@ -89,7 +99,7 @@
 <div id ="info">
 
   <section id="current">
-    <h1> Day In The Life</h1>
+    <h4> Day In The Life</h4>
     <p> 
     * coding
     <br>
@@ -101,7 +111,7 @@
       </p>
   </section>
   <section id="future">
-    <h1>Aspirations</h1>
+    <h4>Aspirations</h4>
       <p>
         * become a Psychologist/counselor
         <br>
@@ -122,7 +132,7 @@
         <!--First Row-->
         <div class="row">
             <div class="page-header about-me" id="projects">
-              <h1>Projects</h1>
+              <h3>Projects</h3>
             </div>
             </div>
 
@@ -134,7 +144,7 @@
   <div class="ui stackable three column grid">
       <div class="column">
           <div class="ui segment">
-              <img src="assets/images/calendar.png"
+              <img src="images/calendar.png"
                   alt="calendar application screenshot" class="image">
               <h5><a href style="color: rgb(5, 5, 5)"
                       src="https://xarroyo1.github.io/Calendar-Application/">Calendar App</a></h5>
@@ -145,7 +155,7 @@
       </div>
       <div class="column">
         <div class="ui segment">
-            <img src="assets/images/savings-app.png"
+            <img src="images/savings-app.png"
                 alt="savings application screenshot" class="image">
             <h5><a href style="color: rgb(5, 5, 5)"
                     src="https://veigarmain.github.io/Savings-Project/">Dolla Dolla Bills Y'all</a></h5>
@@ -158,7 +168,7 @@
       
       <div class="column">
           <div class="ui segment">
-              <img src="assets/images/weath-app.png"
+              <img src="images/weath-app.png"
                   alt="portfolio place holder three" class="image">
               <h5><a href style="color: rgb(5, 5, 5)"
                       src="https://xarroyo1.github.io/weather-application/">Weather App</a></h5>
@@ -184,7 +194,7 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="page-header">
-        <h1>Contact Me</h1>
+        <h3>Contact Me </h3>
       </div>
     </div>
   </div>
@@ -255,7 +265,7 @@
   <!--First Row-->
   <div class="row">
       <div class="page-header about-me">
-        <h1>Also Find Me Here</h1>
+        <h2>Also Find Me Here</h2>
       </div>
       </div>
 
@@ -268,22 +278,42 @@
 </div>
 
 <br>
-
-
 <!--Footers-->
 <footer id="mini-footer"> 
 </footer>
 
 <footer>
   <p>Made with &hearts;  by Xyra</p>
+  <div class="copyWrite-container">
+    &copy;
+    <script>document.write(new Date().getFullYear());</script>
+  </div>
 </footer>
 
+
+
+
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-<link rel="stylesheet" href="css/animate.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<link type="text/javascript" src="assets/cool.js">
+<script type="text/javascript" src="assets/cool.js"></script>
+
+<script type="text/javascript" src="./typed.js"></script>
+  
+<script type="text/javascript">
+
+var typed = new Typed('.type', {
+    strings: ['Welcome to my Portfolio, Im Xyra !'],
+    smartBackspace: true,
+    typeSpeed: 50, 
+    loop: false,
+    showCursor: false,
+    cursorChar: '|',
+    // autoInsertCss: true,
+  });
+
+</script>
 
 </body>
 </html>
